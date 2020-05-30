@@ -1,4 +1,8 @@
-def solution(string, markers):
+#https://www.codewars.com/kata/51c8e37cee245da6b40000bd/train/python
+
+from typing import List
+
+def solution(string: str, markers: List[str])->str:
     if string == "":
         return string
     string = string.splitlines()
